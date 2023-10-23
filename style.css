@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: 'Gilroy';
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+#main{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    height: 80px;
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+img{
+    height: 140px;
+    width: 120px;
+}
+#nav-part2{
+    display: flex;
+    gap: 55px;
+}
+#nav-part3{
+    display: flex;
+    gap: 55px;
+    align-items: center;
+}
+#nav h3{
+    text-transform: uppercase;
+}
+#nav h4{
+    text-transform: uppercase;
+}
+#nav button{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+}
+#main h1{
+    font-size: 95px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#main span{
+    background-color: brown;
+    padding: 20px 40px;
+    font-size: 35px;
+    border-radius: 50px;
+    margin: 0 25px;
+}
+#main h1:nth-child(2){
+    /* color: red; */
+    margin-top: 60px;
+}
+#left-img{
+    height: 200px;
+    position: absolute;
+    top: 14%;
+    left: 10%;
+    border-radius: 20px;
+}
+#right-img{
+    height: 200px;
+    position: absolute;
+    bottom: 16%;
+    right: 10%;
+    border-radius: 20px;
+    
+}
+
+h5{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50% ,0);
+    font-size: 25px;
+}
